@@ -2,7 +2,7 @@
 """
 Created on Sun Feb  5 11:46:53 2023
 
-@author: vivek
+@author: Vikas
 """
 
 import psycopg2 as psy
