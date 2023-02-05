@@ -9,7 +9,7 @@ import psycopg2 as psy
 import pandas as pd
 
 try:
-    con = psy.connect("host=localhost dbname=postgres user=postgres password=Pass@9588")
+    con = psy.connect("host=localhost dbname=postgres user=postgres password=root")
 except psy.Error as e:
     print(e)
     
@@ -32,7 +32,7 @@ con.close()
 #------------------------------------------------------------------------------------------------------------------#
 
 try:
-    con = psy.connect("host=localhost dbname=db_practice1 user=postgres password=Pass@9588")
+    con = psy.connect("host=localhost dbname=db_practice1 user=postgres password=root")
 except psy.Error as e:
     print(e)
 
